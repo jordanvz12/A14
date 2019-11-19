@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang = 'en'>
 <head>
+	<title>Cookie Assignment</title>
 <script type="text/javascript">
 	function setCookie(cname, cvalue, exdays) {
 		var d = new Date();
@@ -30,7 +31,7 @@
 		if (user != "") {
 			alert("Welcome again " + user);
 		} else {
-			user = prompt("Enter your name:", "");
+			user = prompt("HI! whats your name?", "");
 			if (user != "" && user != null) {
 				setCookie("username", user, 365);
 			}
@@ -40,7 +41,9 @@
 </script>
 </head>
 <body onload="checkCookie()">
-
+	<h1>&copy; Jordan Van Zyl 11/20</h1>
+	<p>W3 Schools</p>
+	
 
 
 </body>
